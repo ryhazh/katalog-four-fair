@@ -55,7 +55,7 @@ export default defineComponent({
             "CEKIN.GU adalah sistem pemantauan kegiatan guru yang dirancang untuk memudahkan pengelolaan dan pemantauan kegiatan belajar mengajar. Sistem ini berbasis web dan memiliki tujuan utama untuk memberikan platform digital bagi para guru dalam mengelola kegiatan secara efisien.",
           image_or_video: "/assets/video/cekingu.mp4",
           tech_stack: ["Laravel", "Bootstrap", "Vue JS"],
-          link: "https://example.com/project-three",
+          link: "https://cekin-gu-57lg.vercel.app/",
         },
         {
           id: 3,
@@ -64,7 +64,7 @@ export default defineComponent({
             "Alumni Tracer adalah aplikasi yang digunakan untuk melacak dan mengelola data alumni. Alumni bisa mengisi formulir dua kali sehari, sementara admin dapat mengakses data lengkap, logs, statistik, serta menambahkan dan mengekspor data alumni.",
           image_or_video: "/assets/video/AlumniTrace.mp4",
           tech_stack: ["Laravel", "Bootstrap", "Vue JS"],
-          link: "https://example.com/project-three",
+          link: "https://alumni-tracer-amber.vercel.app/",
         },
         {
           id: 4,
@@ -73,7 +73,7 @@ export default defineComponent({
             "Raporku adalah aplikasi web yang dirancang untuk mempermudah pengelolaan nilai dan data siswa. Aplikasi ini membuat siswa untuk memasukkan nilai ujian mereka, sementara guru dapat mengelola dan memantau perkembangan nilai siswa selama 6 semester.",
           image_or_video: "/assets/video/raporku.mp4",
           tech_stack: ["Laravel", "Vue JS", "Tailwind CSS", "ShadCN Vue"],
-          link: "https://example.com/project-three",
+          link: "https://raporku.vercel.app/",
         },
         {
           id: 4,
@@ -81,7 +81,13 @@ export default defineComponent({
           description:
             "GudangKita adalah aplikasi web berbasis Laravel yang dirancang untuk membantu pengelolaan inventaris barang dengan lebih efisien, akurat, dan mudah diakses dari mana saja.",
           image_or_video: "/assets/video/GudangKita.mp4",
-          tech_stack: ["Laravel", "React JS", "Node JS", "Tailwind CSS", "DaisyUI"],
+          tech_stack: [
+            "Laravel",
+            "React JS",
+            "Node JS",
+            "Tailwind CSS",
+            "DaisyUI",
+          ],
           link: "https://example.com/project-three",
         },
       ],
@@ -126,7 +132,7 @@ export default defineComponent({
               <img
                 :src="project.image_or_video"
                 :alt="project.title"
-                class=" object-cover w-full h-full"
+                class="object-cover w-full h-full"
               />
             </template>
           </AspectRatio>
