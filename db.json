@@ -1,0 +1,119 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Raporku",
+      "description": "Sebuah aplikasi yang memudahkan siswa dan guru dalam proses penilaian.",
+      "tech_stack": ["HTML", "CSS", "JavaScript", "Vue.js"],
+      "image": "https://media.discordapp.net/attachments/1335439869509636116/1335449311839912047/rpku.png?ex=67a03597&is=679ee417&hm=6c2b4f23c3045fb0afcc5f3d2f3d601b3bdee64dfd8dfa0021b87b210b9e358f&=&format=webp&quality=lossless&width=1248&height=701",
+      "link": "https://example.com/portfolio",
+      "creator": "Rayidevs",
+      "more_info": [
+        {
+          "title": "Frontend Development",
+          "image": "https://cdn.discordapp.com/attachments/1335439869509636116/1335439930444349470/raporku_test.mp4?ex=67a02cda&is=679edb5a&hm=d601b2d3b904ef7def500abc2bebbaf61c364a8476c21705fe2b3f8f53dd79d2&",
+          "description": "This project highlights my front-end development skills and UI/UX expertise.",
+          "type": "video"
+        },
+        {
+          "title": "Responsive Design",
+          "image": "https://cdn.discordapp.com/attachments/1335439869509636116/1335443061819314238/raporku-2.mp4?ex=67a02fc5&is=679ede45&hm=5e843c309c941dd86b0a45ec02fc1b7a2eaf8a54c53c560cfc79630077fdca46&",
+          "description": "Responsive and optimized for different screen sizes.",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Task Manager App",
+      "description": "A simple task management app with CRUD functionalities.",
+      "tech_stack": ["React", "Node.js", "Express", "MongoDB"],
+      "image": "https://picsum.photos/300/200?random=4",
+      "link": "https://example.com/task-manager",
+      "creator": "Rayidevs",
+      "more_info": [
+        {
+          "title": "Task Management",
+          "image": "https://picsum.photos/300/200?random=5",
+          "description": "The app allows users to manage their daily tasks with a user-friendly UI.",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "E-commerce Platform",
+      "description": "An online shopping platform with payment integration.",
+      "tech_stack": ["Laravel", "Vue.js", "MySQL"],
+      "image": "https://picsum.photos/300/200?random=6",
+      "link": "https://example.com/e-commerce",
+      "creator": "Rayidevs",
+      "more_info": [
+        {
+          "title": "Shopping Experience",
+          "image": "https://picsum.photos/300/200?random=7",
+          "description": "This platform provides a seamless shopping experience with secure payments.",
+          "type": "image"
+        },
+        {
+          "title": "Payment Integration",
+          "image": "https://picsum.photos/300/200?random=8",
+          "description": "Supports multiple payment gateways and user authentication.",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Blog CMS",
+      "description": "A content management system for creating and managing blog posts.",
+      "tech_stack": ["Django", "PostgreSQL", "Bootstrap"],
+      "image": "https://picsum.photos/300/200?random=9",
+      "link": "https://example.com/blog-cms",
+      "creator": "Rayidevs",
+      "more_info": [
+        {
+          "title": "Admin Panel",
+          "image": "https://picsum.photos/300/200?random=10",
+          "description": "This CMS offers an intuitive admin panel for managing articles efficiently.",
+          "type": "image"
+        },
+        {
+          "title": "SEO Features",
+          "image": "https://picsum.photos/300/200?random=11",
+          "description": "Integrated SEO-friendly features to improve content reach.",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Weather App",
+      "description": "A web app that displays real-time weather data based on user location.",
+      "tech_stack": ["JavaScript", "React", "OpenWeather API"],
+      "image": "https://picsum.photos/300/200?random=12",
+      "link": "https://example.com/weather-app",
+      "creator": "Rayidevs",
+      "more_info": [
+        {
+          "title": "Real-time Forecasts",
+          "image": "https://picsum.photos/300/200?random=13",
+          "description": "Provides accurate and real-time weather forecasts with a clean UI.",
+          "type": "image"
+        },
+        {
+          "title": "Search Functionality",
+          "image": "https://picsum.photos/300/200?random=14",
+          "description": "Allows users to search weather by city and country.",
+          "type": "image"
+        },
+        {
+          "title": "Dynamic UI",
+          "image": "https://picsum.photos/300/200?random=15",
+          "description": "Features dynamic background changes based on weather conditions.",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
